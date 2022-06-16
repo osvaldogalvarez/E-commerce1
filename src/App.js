@@ -1,13 +1,17 @@
 //@ts-check
 
 import "./App.css";
-import WithAction from "./components/WithAction";
+import Navbar from "./components/Navbar";
+import ItemListContainer from "./components/ItemListContainer";
+
 
 function App() {
   
   return (
     <>
-      <WithAction />
+      <Navbar />
+      <ItemListContainer greeting= "greetingggg"/>
+      
     </>
   );
 }

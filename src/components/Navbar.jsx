@@ -1,4 +1,5 @@
 import { ReactNode } from "react";
+import CartWidget from "./CartWidget";
 import {
   Box,
   Flex,
@@ -67,9 +68,9 @@ export default function WithAction() {
           </HStack>
           
           <Flex alignItems={"center"}>
-            
-              <img src="./images/icon2.png" alt="" />
-            
+            <div className="active-numer numer">
+            <CartWidget cant="10"/>
+            </div>
             <Menu>
               <MenuButton
                 as={Button}
