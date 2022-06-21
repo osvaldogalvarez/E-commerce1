@@ -1,0 +1,35 @@
+.contador {
+    
+    width: 160px;
+    margin-left: 30px; 
+    margin-top: 50px;
+    display: flex;
+    
+}
+.btn-danger {
+    font-size: 40px;
+    padding: 20px;
+    
+}
+.btn-success {
+    font-size: 40px;
+    padding: 20px;
+    
+}
+.num {
+    font-size: 40px;
+    padding: 20px;
+    
+}
+
+
+.btn-warning {
+    border-radius: 3px;
+    display: inline-block;
+    padding: 12px 8px;
+    text-decoration:none ;
+    color: black;
+    background-color: blueviolet;
+    display: grid;
+    text-align: center;
+}

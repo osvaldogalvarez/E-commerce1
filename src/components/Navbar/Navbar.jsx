@@ -1,3 +1,4 @@
+//@ts-check
 import { ReactNode } from "react";
 import CartWidget from "./CartWidget";
 import {
