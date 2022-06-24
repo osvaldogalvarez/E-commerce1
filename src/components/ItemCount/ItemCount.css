@@ -4,16 +4,19 @@
     margin-left: 30px; 
     margin-top: 50px;
     display: flex;
+    flex-direction: row;
     
 }
 .btn-danger {
     font-size: 40px;
     padding: 20px;
     
+    
 }
 .btn-success {
     font-size: 40px;
     padding: 20px;
+    
     
 }
 .num {
